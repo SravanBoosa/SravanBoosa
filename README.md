@@ -1,58 +1,40 @@
-<html>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<body background="images/2.png" style="background-repeat:no-repeat;
-background-size: 100% 100%">
-<br><br><br><br>
-<div class="container">
-  <div class="jumbotron vertical-center">
-  	<table class="grid" cellspacing="0">
-  		<tr>
-  <td colspan="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-  <td colspan="4">
-  	<form method="post">
-  <div class="form-group" action="post">
-    <label for="firstname">Name:</label>
-    <input type="text" class="form-control" name="firstname">
-  </div>
-  <div class="form-group">
-    <label for="email">Email:</label>
-    <input type="text" class="form-control" name="email">
-  </div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="btn btn-success">Submit</button>
-</form></td>  
-  <td colspan="4"></td>
-</tr>
-</table>
-</div>
-</div>
-<?php
-$firstname=$_POST['firstname'];
-$email=$_POST['email'];
-$servername = "multitierproject-rds.cn42sii08qkz.us-east-1.rds.amazonaws.com";
-$username = "admin";
-$password = "intel123";
-$db = "intel";
-// Create connection
-$conn = new mysqli($servername, $username, $password, $db);
+<h1 align="center">Hi 👋, I'm Sravan Boosa</h1>
+<h3 align="center">DevOps & Cloud Enthusiast | AWS | Lifelong Learner</h3>
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-if(isset($_POST['firstname']) && isset($_POST['email'])){
-$sql = "INSERT INTO data (firstname,email)
-VALUES ('".$firstname."', '".$email."')";
+---
 
-if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
+### 🚀 About Me
+- 🔭 Currently working on **AWS & DevOps projects**
+- 🌱 Learning **CI/CD, Docker, Kubernetes, Terraform**
+- 💡 I enjoy building and breaking things in the cloud
+- 📫 Reach me at: **your-email@example.com**
+- 📍 Based in **Bengaluru, India**
 
-$conn->close();
-}
-?>
-</body>
-</html>
+---
 
+### 🛠️ Tech Stack
 
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SravanBoosa&show_icons=true&theme=tokyonight" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SravanBoosa&layout=compact&theme=tokyonight" />
+</p>
+
+---
+
+### 🔥 Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=SravanBoosa&theme=tokyonight" />
+</p>
