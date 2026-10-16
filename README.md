@@ -21,10 +21,10 @@
 <!-- SECTION B: ABOUT ME -->
 ## 👨‍💻 About Me
 
-I'm **Sravan Boosa**, Currently working on **AWS, DevOps & AI projects** based in 📍 Hyderabad, India.
+I'm **Sravan Boosa**, Currently working on **AWS, AZURE, DevOps & AI projects** based in 📍 Hyderabad, India.
 I love automating things, building on the cloud, and sharing knowledge with the tech community.
 
-- 🔭 Currently working on **AWS, DevOps & AI projects**
+- 🔭 Currently working on **AWS, AZURE, DevOps & AI projects**
 - 🌱 Learning **Docker, Kubernetes, Python, Shell Scripting, Terraform,  CI/CD Pipelines & AI**
 - 📫 Reach me at: **sravangoudboosa@gmail.com**
 
